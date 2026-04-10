@@ -6,7 +6,7 @@ steps {
 bat "mvn clean compile"
 }
 }
-stage('Test' {
+stage('Test') {
 steps {
 bat "mvn tests"
 }
